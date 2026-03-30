@@ -24,8 +24,8 @@ The write-ups included here come from a combination of CTF competitions and trai
 | Clicq Div:ide CTF | 2026 | Team | Yes |
 | ICTFF UiTM CTF T.A.M.I.N.G | 2026 | Team | Yes |
 | International Game of Hackers (IGOH) | 2025 | Team | Yes |
-| BingoCTF | 2025 | Team | Yes |
-| International Battle of Hackers (IBOH) | 2025 | Team | Yes |
+| BingoCTF | 2025 | Team | No |
+| International Battle of Hackers (IBOH) | 2025 | Team | No |
 | picoCTF (Training Platform) | Ongoing | Individual | Yes |
 
 ---
