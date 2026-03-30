@@ -19,13 +19,14 @@ The write-ups included here come from a combination of CTF competitions and trai
 
 ## CTF Participation
 
-| Event Name | Year | Participation Type | Write-up Available |
+| Event Name | Year | Team | Write-up Available |
 |-----------|------|-------------------|--------------------|
-| Clicq Div:ide CTF | 2026 | Team | Yes |
-| ICTFF UiTM CTF T.A.M.I.N.G | 2026 | Team | Yes |
-| International Game of Hackers (IGOH) | 2025 | Team | Yes |
-| BingoCTF | 2025 | Team | No |
-| International Battle of Hackers (IBOH) | 2025 | Team | No |
+| International Hack@10 CTF | 2026 | Chanduu | Yes |
+| Clicq Div:ide CTF | 2026 | Dem1_Sc0run | Yes |
+| ICTFF UiTM CTF T.A.M.I.N.G | 2026 |  Chanduu | Yes |
+| International Game of Hackers (IGOH) | 2025 |  Chanduu | Yes |
+| BingoCTF | 2025 |  Chanduu | No |
+| International Battle of Hackers (IBOH) | 2025 |  Chanduu | No |
 | picoCTF (Training Platform) | Ongoing | Individual | Yes |
 
 ---
