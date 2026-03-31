@@ -2,14 +2,16 @@
 
 ---
 
-## 🏁 Flag
+## Flag
 ```
 hack10{be029cf0e9f2eaa5f80489343630befb}
 ```
 
 ---
 
-## 📌 Challenge Overview
+## Challenge Overview
+
+![Challenge Question](./assets/01-Question.png)
 
 We are given a Windows executable:
 
@@ -22,7 +24,7 @@ Analyze the binary to determine how the flag is generated.
 
 ---
 
-## 🔍 Initial Analysis
+## Initial Analysis
 
 Two main approaches were considered:
 
@@ -31,19 +33,19 @@ Two main approaches were considered:
 
 ---
 
-## 🧠 Step 1: Basic Inspection
+## Step 1: Basic Inspection
 
 Using tools like `strings`, we immediately notice something suspicious:
 
-> A flag-like string embedded inside a file path
+![fake flag](./assets/02-Fake.png)
 
-### 🚨 Observation:
+### Observation:
 - The embedded flag appears too obvious
 - Likely a **decoy (fake flag)**
 
 ---
 
-## 🔬 Step 2: Static Analysis (Ghidra / IDA)
+## Step 2: Static Analysis (Ghidra / IDA)
 
 Opening the binary in a reverse engineering tool reveals:
 
@@ -61,7 +63,7 @@ if (file_exists(path)) {
 
 ---
 
-## ⚠️ Key Behavior
+## Key Behavior
 
 If the file exists:
 
@@ -70,21 +72,23 @@ If the file exists:
 
 ---
 
-## 🧠 Understanding the Trick
+## Understanding the Trick
 
 - The visible flag in `strings` is **not the real flag**
 - It is only used as part of a **file path**
 - The real flag is derived dynamically:
 
-> MD5(full_path_string)
+> ![md5 path](./assets/03-Path.png)
 
 ---
 
-## 🔓 Exploitation
+## Exploitation
 
 ### Step 1: Extract the Full Path
 
 From static analysis, identify the exact hardcoded path used by the program.
+
+![md5 path](./assets/03-Path.png)
 
 ---
 
@@ -95,7 +99,7 @@ Using Python:
 ```python
 import hashlib
 
-path = "C:\\...\\fake_flag_path"
+path = "C:\Users\HACK10{f4k3_fl4g_bu7-y0u-4r3_in_7h3_righ7_7r4ck}\Desktop\local.txt"
 md5 = hashlib.md5(path.encode()).hexdigest()
 print(md5)
 ```
@@ -110,7 +114,7 @@ HACK10{be029cf0e9f2eaa5f80489343630befb}
 
 ---
 
-## 🎯 Final Result
+## Final Result
 
 ```
 hack10{be029cf0e9f2eaa5f80489343630befb}
@@ -118,7 +122,7 @@ hack10{be029cf0e9f2eaa5f80489343630befb}
 
 ---
 
-## 🧩 Key Takeaways
+## Key Takeaways
 
 - Strings in binaries can be misleading (decoy flags)  
 - Static analysis reveals real program logic  
@@ -127,7 +131,7 @@ hack10{be029cf0e9f2eaa5f80489343630befb}
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - `strings`  
 - Ghidra / IDA  
@@ -136,7 +140,7 @@ hack10{be029cf0e9f2eaa5f80489343630befb}
 
 ---
 
-## 🧠 Skills Developed
+## Skills Developed
 
 - Reverse engineering fundamentals  
 - Static binary analysis  
