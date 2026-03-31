@@ -1,6 +1,6 @@
 # 🎰 Hakari Domain — Writeup (Crypto)
 
-> “You learned Hakari's Domain. Will you hit the jackpot?”
+![Question](./assets/01-Question.png)
 
 ---
 
