@@ -11,6 +11,8 @@ hack10{4n0nym0u5_ftp_t0_55h_w00t}
 
 ## Challenge Overview
 
+![Challenge](./assets/01-Question.png)
+
 This challenge provides a vulnerable virtual machine.
 
 ### Objective:
@@ -33,6 +35,8 @@ Two machines were used:
 
 ## Target Information
 
+![Target Interface](./assets/02-Target.png)
+
 From the target interface:
 
 ```
@@ -48,10 +52,11 @@ Scan all ports:
 ```bash
 nmap -Pn -T4 --min-rate 200 -p- 192.168.56.108 -oN nmap_allports.txt
 ```
-
 ---
 
 ## Observation
+
+![Nmap Scan Result](./assets/03-Nmap.png)
 
 Multiple services are exposed. Initial focus was placed on:
 
@@ -112,6 +117,8 @@ Read the file:
 ```bash
 cat .secret_note.txt
 ```
+
+![Secret Note Content](./assets/04-secret.png)
 
 ### Discovered Credentials:
 
