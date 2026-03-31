@@ -11,6 +11,8 @@ hack10{r00t_priv3sc_v1a_s0ud0_find_w00t}
 
 ## Challenge Overview
 
+![Question](./assets/01-Question.png)
+
 This challenge is a continuation of **Freshman-V2 — User**.
 
 ### Objective:
