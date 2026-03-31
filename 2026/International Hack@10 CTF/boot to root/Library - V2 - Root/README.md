@@ -11,7 +11,9 @@ hack10{cr0n_t4r-w1ldc4rd_1nj3ct10n_ftw}
 
 ## Challenge Overview
 
-This challenge is a continuation of **Library-V2 — User**.
+This challenge is a continuation of **Library-V2—User**.
+
+![Question](./assets/01-Question.png)
 
 ### Objective:
 - Escalate privileges from user `librarian`
