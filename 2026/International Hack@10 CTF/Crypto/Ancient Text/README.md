@@ -97,7 +97,7 @@ hack10{zoltraak}
 
 ---
 
-## 🧩 Key Takeaways
+## Key Takeaways
 
 - Not all crypto challenges require mathematical techniques  
 - Recognizing context clues is critical  
