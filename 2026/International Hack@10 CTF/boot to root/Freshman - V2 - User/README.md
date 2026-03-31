@@ -11,6 +11,8 @@ hack10{3asy_p3asy_1n1t1al_acc3ss}
 
 ## Challenge Overview
 
+![Question](./assets/01-Question.png)
+
 This challenge provides a vulnerable virtual machine (OVA file).
 
 ### Objective:
@@ -32,6 +34,8 @@ Two machines were used:
 ---
 
 ## Target Information
+
+![Target Page](./assets/02-Target.png)
 
 From the target interface:
 
@@ -72,8 +76,9 @@ Access:
 ```
 http://192.168.56.107
 ```
-
 A login page is presented.
+
+![Login Page](./assets/03-LoginPage.png)
 
 ### Credentials Used:
 
@@ -84,7 +89,9 @@ Password: admin
 
 ### Result:
 - Successfully authenticated into the application 
-- Redirected to file upload page  
+- Redirected to file upload page
+
+![Upload Page](./assets/04-UploadPage.png)
 
 ---
 
@@ -144,6 +151,8 @@ Read file:
 ```bash
 cat /tmp/dev_notes.txt
 ```
+![dev_notes content](./assets/05-devnotes.png)
+
 
 ### Discovered Credentials:
 ```
