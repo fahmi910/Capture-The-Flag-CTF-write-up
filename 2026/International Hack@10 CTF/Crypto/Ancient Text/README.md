@@ -1,4 +1,4 @@
-# 📜 Ancient Text — Writeup (Crypto / OSINT)
+# 📜 Ancient Text — Writeup
 
 ---
 
