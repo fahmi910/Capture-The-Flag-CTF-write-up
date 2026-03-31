@@ -2,14 +2,14 @@
 
 ---
 
-## 🏁 Flag
+## Flag
 ```
 hack10{zoltraak}
 ```
 
 ---
 
-## 📌 Challenge Overview
+## Challenge Overview
 
 ![Challenge Question](./assets/01-Question.png)
 
@@ -28,7 +28,7 @@ This suggests the challenge is **not traditional cryptography**, but rather:
 
 ---
 
-## 🔍 Initial Observation
+## Initial Observation
 
 The strongest clue in the challenge is the name:
 
@@ -40,7 +40,7 @@ This is a key hint pointing toward: **Frieren: Beyond Journey’s End (Sousou no
 
 ---
 
-## 🧠 Analysis Strategy
+## Analysis Strategy
 
 Instead of treating the symbols as a random cipher, the better approach is:
 
@@ -53,7 +53,7 @@ So the focus shifted from:
 
 ---
 
-## 🌐 OSINT Phase
+## OSINT Phase
 
 I searched for:
 ```
@@ -72,7 +72,7 @@ The post provided a **mapping of the symbols to real characters**.
 
 ---
 
-## 🔓 Decoding Process
+## Decoding Process
 
 Steps:
 1. Compare the challenge symbols with the mapping  
@@ -81,7 +81,7 @@ Steps:
 
 ---
 
-## 🎯 Result
+## Result
 
 The decoded word:
 
@@ -106,7 +106,7 @@ hack10{zoltraak}
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Google Search (OSINT)  
 - Reddit (community-sourced decoding)  
@@ -114,7 +114,7 @@ hack10{zoltraak}
 
 ---
 
-## 🧠 Skills Developed
+## Skills Developed
 
 - OSINT (Open-Source Intelligence)  
 - Pattern recognition  
