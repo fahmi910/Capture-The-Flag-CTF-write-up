@@ -11,7 +11,11 @@ hack10{zoltraak}
 
 ## 📌 Challenge Overview
 
+![Challenge Question](./assets/01-Question.png)
+
 We are given an image containing strange, unfamiliar symbols.
+
+![Ancient Text](./assets/02-Text.jpg)
 
 At first glance:
 - No clear ciphertext format  
@@ -30,9 +34,9 @@ The strongest clue in the challenge is the name:
 
 > **"Frieren"**
 
-This is a key hint pointing toward:
+This is a key hint pointing toward: **Frieren: Beyond Journey’s End (Sousou no Frieren)**
 
-**Frieren: Beyond Journey’s End (Sousou no Frieren)**
+![Anime Poster](./assets/06-Anime.jpg)
 
 ---
 
@@ -58,9 +62,13 @@ frieren ancient text symbols
 
 This led to a relevant Reddit discussion:
 
+![Reddit Post](./assets/04-reddit.png)
+
 👉 https://www.reddit.com/r/Frieren/comments/1r4mrd3/we_in_frierencord_have_deciphered_the_ancient/
 
 The post provided a **mapping of the symbols to real characters**.
+
+![Ancient Text Mapping](./assets/05-mapped.png)
 
 ---
 
@@ -78,7 +86,7 @@ Steps:
 The decoded word:
 
 ```
-zoltraak
+the flag is zoltraak
 ```
 
 Final flag:
