@@ -9,7 +9,7 @@ The Incident Response team discovered a suspicious but harmless-looking image in
 - **Category:** Forensics  
 - **File Provided:** `chal.jpg`
 
-![Chal jpg](./assets/chal(1).jpg)
+![Chal jpg](./assets/challenge.jpg)
 
 - **Hint:** Hidden payload inside an image  
 
