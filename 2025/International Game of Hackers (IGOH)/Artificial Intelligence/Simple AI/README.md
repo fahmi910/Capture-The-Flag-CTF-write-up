@@ -77,9 +77,7 @@ The successful payload was:
 
 ## Exploit Result
 
-<p align="center">
-  <img src="./assets/simple-ai-exploit.png" width="80%">
-</p>
+![Challenge Interface](./assets/simple-ai-exploit.png)>
 
 ---
 
