@@ -21,9 +21,9 @@ The write-ups included here come from a combination of CTF competitions and trai
 
 | Event Name | Year | Team | Write-up Available |
 |-----------|------|-------------------|--------------------|
-| International Hack@10 CTF | 2026 | Chanduu | Yes |
+| International Hack@10 CTF | 2026 | Chanduu | [Yes](https://github.com/fahmi910/Capture-The-Flag-CTF-write-up/tree/main/2026/International%20Hack%4010%20CTF) |
 | Clicq Div:ide CTF | 2026 | Dem1_Sc0run | Yes |
-| ICTFF UiTM CTF T.A.M.I.N.G | 2026 |  Chanduu | Yes |
+| ICTFF UiTM CTF T.A.M.I.N.G | 2026 |  Chanduu | [Yes](https://github.com/fahmi910/Capture-The-Flag-CTF-write-up/tree/main/2026/TAMING%20ICTFF) |
 | International Game of Hackers (IGOH) | 2025 |  Chanduu | Yes |
 | BingoCTF | 2025 |  Chanduu | No |
 | International Battle of Hackers (IBOH) | 2025 |  Chanduu | No |
